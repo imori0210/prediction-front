@@ -127,6 +127,7 @@ export default {
     },
     setData: function(res){
       let race = res.data.data
+      console.log(race)
       this.raceData.id = race.id
       this.raceData.date = race.date
       this.raceData.place = tool.replaceDubbleQw(race.place)
@@ -175,7 +176,7 @@ export default {
 <style type="text/css">
     div {
       padding: 20px;
-      padding-left: 100px;
+      /*padding-left: 100px;*/
     }
     p {
         display: flex;
