@@ -62,10 +62,10 @@
     </select>
     <div>
         <button class='nextbtt' v-on:click="goNextRace">次へ</button>
-        <p>{{selectfirst}} : {{raceData.first}}</p>
-        <p>{{selectsecond}} : {{raceData.second}}</p>
-        <p>{{in_trackbias_course}}</p>
-        <p>{{in_trackbias_racestyle}}</p>
+        <!--<p>{{selectfirst}} : {{raceData.first}}</p>-->
+        <!--<p>{{selectsecond}} : {{raceData.second}}</p>-->
+        <!--<p>{{in_trackbias_course}}</p>-->
+        <!--<p>{{in_trackbias_racestyle}}</p>-->
     </div>
   </div>
   
